@@ -18,8 +18,8 @@ module.exports = webpackMerge(commonConfig({ env: ENV }), {
     // You have to enable it in Terser config below and in tsconfig.json as well
     // devtool: 'source-map',
     entry: {
-        global: './src/main/webapp/content/scss/global.scss',
-        main: './src/main/webapp/app/app.main'
+        global: './content/scss/global.scss',
+        main: './app/app.main'
     },
     output: {
         path: utils.root('target/classes/static/'),
