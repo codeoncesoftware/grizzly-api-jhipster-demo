@@ -44,8 +44,8 @@ module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
     },
     output: {
         path: utils.root('target/classes/static/'),
-        filename: 'app/[name].bundle.js',
-        chunkFilename: 'app/[id].chunk.js'
+        filename: './app/[name].bundle.js',
+        chunkFilename: './app/[id].chunk.js'
     },
     module: {
         rules: [{

@@ -1,4 +1,4 @@
-import './polyfills';
+import './app/shared/polyfills';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { ProdConfig } from '../app/blocks/config/prod.config';

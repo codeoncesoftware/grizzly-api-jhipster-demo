@@ -23,8 +23,8 @@ module.exports = webpackMerge(commonConfig({ env: ENV }), {
     },
     output: {
         path: utils.root('target/classes/static/'),
-        filename: 'app/[name].[hash].bundle.js',
-        chunkFilename: 'app/[id].[hash].chunk.js'
+        filename: './app/[name].[hash].bundle.js',
+        chunkFilename: './app/[id].[hash].chunk.js'
     },
     module: {
         rules: [
