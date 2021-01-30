@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { JhipsterSampleApplicationSharedModule } from 'app/shared/shared.module';
+import { JhipsterSampleApplicationSharedModule } from '../../shared/shared.module';
 import { LabelComponent } from './label.component';
 import { LabelDetailComponent } from './label-detail.component';
 import { LabelUpdateComponent } from './label-update.component';

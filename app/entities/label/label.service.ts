@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { ILabel } from 'app/shared/model/label.model';
+import { ILabel } from '../../shared/model/label.model';
 
 type EntityResponseType = HttpResponse<ILabel>;
 type EntityArrayResponseType = HttpResponse<ILabel[]>;

@@ -3,7 +3,7 @@ import { Title } from '@angular/platform-browser';
 import { Router, ActivatedRouteSnapshot, NavigationEnd, NavigationError } from '@angular/router';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
-import { AccountService } from 'app/core/auth/account.service';
+import { AccountService } from '../../core/auth/account.service';
 
 @Component({
   selector: 'jhi-main',

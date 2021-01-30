@@ -4,7 +4,7 @@ import { Subscription } from 'rxjs';
 import { JhiEventManager } from 'ng-jhipster';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
-import { ILabel } from 'app/shared/model/label.model';
+import { ILabel } from '../../shared/model/label.model';
 import { LabelService } from './label.service';
 import { LabelDeleteDialogComponent } from './label-delete-dialog.component';
 

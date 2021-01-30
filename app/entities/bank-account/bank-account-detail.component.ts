@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { IBankAccount } from 'app/shared/model/bank-account.model';
+import { IBankAccount } from '../../shared/model/bank-account.model';
 
 @Component({
   selector: 'jhi-bank-account-detail',

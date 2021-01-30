@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { IBankAccount } from 'app/shared/model/bank-account.model';
+import { IBankAccount } from '../../shared/model/bank-account.model';
 
 type EntityResponseType = HttpResponse<IBankAccount>;
 type EntityArrayResponseType = HttpResponse<IBankAccount[]>;

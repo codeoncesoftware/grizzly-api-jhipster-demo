@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import './vendor';
-import { JhipsterSampleApplicationSharedModule } from 'app/shared/shared.module';
-import { JhipsterSampleApplicationCoreModule } from 'app/core/core.module';
+import { JhipsterSampleApplicationSharedModule } from './shared/shared.module';
+import { JhipsterSampleApplicationCoreModule } from './core/core.module';
 import { JhipsterSampleApplicationAppRoutingModule } from './app-routing.module';
 import { JhipsterSampleApplicationHomeModule } from './home/home.module';
 import { JhipsterSampleApplicationEntityModule } from './entities/entity.module';

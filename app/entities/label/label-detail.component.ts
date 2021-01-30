@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { ILabel } from 'app/shared/model/label.model';
+import { ILabel } from '../../shared/model/label.model';
 
 @Component({
   selector: 'jhi-label-detail',

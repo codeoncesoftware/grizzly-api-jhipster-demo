@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { JhipsterSampleApplicationSharedModule } from 'app/shared/shared.module';
+import { JhipsterSampleApplicationSharedModule } from '../../shared/shared.module';
 import { BankAccountComponent } from './bank-account.component';
 import { BankAccountDetailComponent } from './bank-account-detail.component';
 import { BankAccountUpdateComponent } from './bank-account-update.component';

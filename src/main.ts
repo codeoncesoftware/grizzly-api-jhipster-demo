@@ -1,7 +1,8 @@
 import './polyfills';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { JhipsterSampleApplicationAppModule } from 'app/app.module';
-import { ProdConfig } from 'app/blocks/config/prod.config';
+
+import { ProdConfig } from '../app/blocks/config/prod.config';
+import { JhipsterSampleApplicationAppModule } from '../app/app.module';
 
 
 ProdConfig();

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 import { JhiEventManager } from 'ng-jhipster';
 
-import { IBankAccount } from 'app/shared/model/bank-account.model';
+import { IBankAccount } from '../../shared/model/bank-account.model';
 import { BankAccountService } from './bank-account.service';
 
 @Component({

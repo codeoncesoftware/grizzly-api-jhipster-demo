@@ -1,5 +1,5 @@
-import { IUser } from 'app/core/user/user.model';
-import { IOperation } from 'app/shared/model/operation.model';
+import { IUser } from '../../core/user/user.model';
+import { IOperation } from '../../shared/model/operation.model';
 
 export interface IBankAccount {
   _id?: number;

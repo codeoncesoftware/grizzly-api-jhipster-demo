@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 import { JhiEventManager } from 'ng-jhipster';
 
-import { ILabel } from 'app/shared/model/label.model';
+import { ILabel } from '../../shared/model/label.model';
 import { LabelService } from './label.service';
 
 @Component({

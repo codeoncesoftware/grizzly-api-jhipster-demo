@@ -5,10 +5,10 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 
-import { IBankAccount, BankAccount } from 'app/shared/model/bank-account.model';
+import { IBankAccount, BankAccount } from '../../shared/model/bank-account.model';
 import { BankAccountService } from './bank-account.service';
-import { IUser } from 'app/core/user/user.model';
-import { UserService } from 'app/core/user/user.service';
+import { IUser } from '../../core/user/user.model';
+import { UserService } from '../../core/user/user.service';
 
 @Component({
   selector: 'jhi-bank-account-update',

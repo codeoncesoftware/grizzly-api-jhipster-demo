@@ -4,7 +4,7 @@ import { Subscription } from 'rxjs';
 import { JhiEventManager } from 'ng-jhipster';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
-import { IBankAccount } from 'app/shared/model/bank-account.model';
+import { IBankAccount } from '../../shared/model/bank-account.model';
 import { BankAccountService } from './bank-account.service';
 import { BankAccountDeleteDialogComponent } from './bank-account-delete-dialog.component';
 

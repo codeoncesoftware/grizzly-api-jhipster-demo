@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { IUser } from './user.model';
-import { Pagination } from 'app/shared/util/request-util';
+import { Pagination } from '../../shared/util/request-util';
 
 @Injectable({ providedIn: 'root' })
 export class UserService {

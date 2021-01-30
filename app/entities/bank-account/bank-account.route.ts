@@ -4,9 +4,9 @@ import { Resolve, ActivatedRouteSnapshot, Routes, Router } from '@angular/router
 import { Observable, of, EMPTY } from 'rxjs';
 import { flatMap } from 'rxjs/operators';
 
-import { Authority } from 'app/shared/constants/authority.constants';
-import { UserRouteAccessService } from 'app/core/auth/user-route-access-service';
-import { IBankAccount, BankAccount } from 'app/shared/model/bank-account.model';
+import { Authority } from '../../shared/constants/authority.constants';
+import { UserRouteAccessService } from '../../core/auth/user-route-access-service';
+import { IBankAccount, BankAccount } from '../../shared/model/bank-account.model';
 import { BankAccountService } from './bank-account.service';
 import { BankAccountComponent } from './bank-account.component';
 import { BankAccountDetailComponent } from './bank-account-detail.component';

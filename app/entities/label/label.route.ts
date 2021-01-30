@@ -4,9 +4,8 @@ import { Resolve, ActivatedRouteSnapshot, Routes, Router } from '@angular/router
 import { Observable, of, EMPTY } from 'rxjs';
 import { flatMap } from 'rxjs/operators';
 
-import { Authority } from 'app/shared/constants/authority.constants';
-import { UserRouteAccessService } from 'app/core/auth/user-route-access-service';
-import { ILabel, Label } from 'app/shared/model/label.model';
+import { UserRouteAccessService } from '../../core/auth/user-route-access-service';
+import { ILabel, Label } from '../../shared/model/label.model';
 import { LabelService } from './label.service';
 import { LabelComponent } from './label.component';
 import { LabelDetailComponent } from './label-detail.component';

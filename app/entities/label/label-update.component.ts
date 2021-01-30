@@ -5,7 +5,7 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 
-import { ILabel, Label } from 'app/shared/model/label.model';
+import { ILabel, Label } from '../../shared/model/label.model';
 import { LabelService } from './label.service';
 
 @Component({

@@ -3,9 +3,9 @@ import { FormBuilder } from '@angular/forms';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
 
-import { LoginService } from 'app/core/login/login.service';
-import { UserService } from 'app/core/user/user.service';
-import { AccountService } from 'app/core/auth/account.service';
+import { LoginService } from '../../core/login/login.service';
+import { UserService } from '../../core/user/user.service';
+import { AccountService } from '../../core/auth/account.service';
 
 @Component({
   selector: 'jhi-login-modal',
