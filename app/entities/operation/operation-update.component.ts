@@ -5,14 +5,14 @@ import { FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import * as moment from 'moment';
-import { DATE_TIME_FORMAT } from 'app/shared/constants/input.constants';
+import { DATE_TIME_FORMAT } from '../../shared/constants/input.constants';
 
-import { IOperation, Operation } from 'app/shared/model/operation.model';
+import { IOperation, Operation } from '../../shared/model/operation.model';
 import { OperationService } from './operation.service';
-import { IBankAccount } from 'app/shared/model/bank-account.model';
-import { BankAccountService } from 'app/entities/bank-account/bank-account.service';
-import { ILabel } from 'app/shared/model/label.model';
-import { LabelService } from 'app/entities/label/label.service';
+import { IBankAccount } from '../../shared/model/bank-account.model';
+import { BankAccountService } from '../../entities/bank-account/bank-account.service';
+import { ILabel } from '../../shared/model/label.model';
+import { LabelService } from '../../entities/label/label.service';
 
 type SelectableEntity = IBankAccount | ILabel;
 

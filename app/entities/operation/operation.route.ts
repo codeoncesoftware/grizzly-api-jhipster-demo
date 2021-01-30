@@ -4,9 +4,8 @@ import { Resolve, ActivatedRouteSnapshot, Routes, Router } from '@angular/router
 import { Observable, of, EMPTY } from 'rxjs';
 import { flatMap } from 'rxjs/operators';
 
-import { Authority } from 'app/shared/constants/authority.constants';
-import { UserRouteAccessService } from 'app/core/auth/user-route-access-service';
-import { IOperation, Operation } from 'app/shared/model/operation.model';
+import { UserRouteAccessService } from '../../core/auth/user-route-access-service';
+import { IOperation, Operation } from '../../shared/model/operation.model';
 import { OperationService } from './operation.service';
 import { OperationComponent } from './operation.component';
 import { OperationDetailComponent } from './operation-detail.component';

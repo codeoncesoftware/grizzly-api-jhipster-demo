@@ -4,9 +4,7 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import * as moment from 'moment';
 
-import { SERVER_API_URL } from 'app/app.constants';
-import { createRequestOption } from 'app/shared/util/request-util';
-import { IOperation } from 'app/shared/model/operation.model';
+import { IOperation } from '../../shared/model/operation.model';
 
 type EntityResponseType = HttpResponse<IOperation>;
 type EntityArrayResponseType = HttpResponse<IOperation[]>;

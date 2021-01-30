@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { IOperation } from 'app/shared/model/operation.model';
+import { IOperation } from '../../../app/shared/model/operation.model';
 
 @Component({
   selector: 'jhi-operation-detail',

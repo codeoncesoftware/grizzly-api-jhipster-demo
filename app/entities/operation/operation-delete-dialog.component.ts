@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 import { JhiEventManager } from 'ng-jhipster';
 
-import { IOperation } from 'app/shared/model/operation.model';
+import { IOperation } from '../../shared/model/operation.model';
 import { OperationService } from './operation.service';
 
 @Component({
