@@ -79,7 +79,7 @@ export class JhipsterSampleApplicationCoreModule {
   constructor(iconLibrary: FaIconLibrary, dpConfig: NgbDatepickerConfig, languageService: JhiLanguageService) {
     registerLocaleData(locale);
     iconLibrary.addIcons(...fontAwesomeIcons);
-    dpConfig.minDate = { year: moment().year() - 100, month: 1, day: 1 };
+    dpConfig.minDate = { year: 2021, month: 1, day: 1 };
     languageService.init();
   }
 }
